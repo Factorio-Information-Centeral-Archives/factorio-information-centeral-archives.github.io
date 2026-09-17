@@ -4,6 +4,7 @@
 }
 
 .text {
+    padding: 20px;
     color: white;
 }
 
@@ -14,8 +15,41 @@
     color: white;
 }
 
-.arrow {
+.text-left {
     color: white;
+    text-align: left;
+    margin: 0px;
+    padding: 20px;
+}
+
+.text-centered-big {
+    padding: 20px;
+
+    text-align: center;
+    margin: 0 auto;
+
+    color: white;
+
+    font-size: larger;
+}
+
+.space-age {
+    margin: 0px;
+}
+
+.lang-changer {
+    margin: 0px;
+
+}
+
+.ukranian {
+    width: 50px;
+    height: 25px;
+}
+
+.english {
+    width: 50px;
+    height: 25px;
 }
 
 .title-wrapper {
@@ -86,7 +120,8 @@
 .assembler-recepie,
 .copper-plates-recepie,
 .iron-gears-recepie,
-.copper-cable-recepie {
+.copper-cable-recepie,
+.green-circuit-recepie {
     display: flex;
     flex-direction: row;  
     flex-wrap: wrap;       
@@ -101,12 +136,13 @@
 .assembler-recepie > div,
 .copper-plates-recepie  > div,
 .iron-gears-recepie > div,
-.copper-cable-recepie > div {
+.copper-cable-recepie > div,
+.green-circuit-recepie > div {
     display: flex;
     flex-direction: column; 
     align-items: center;    
     text-align: center;   
-    width: 120px;           
+    width: 100px;           
 }
 
 .image {
