@@ -82,7 +82,8 @@
 .copper-plates-recepie,
 .iron-gears-recepie,
 .copper-cable-recepie,
-.green-circuit-recepie {
+.green-circuit-recepie,
+.stone-bricks-recepie {
     display: flex;
     flex-direction: row;  
     flex-wrap: wrap;       
@@ -98,7 +99,8 @@
 .copper-plates-recepie  > div,
 .iron-gears-recepie > div,
 .copper-cable-recepie > div,
-.green-circuit-recepie > div {
+.green-circuit-recepie > div,
+.stone-bricks-recepie > div {
     display: flex;
     flex-direction: column; 
     align-items: center;    
