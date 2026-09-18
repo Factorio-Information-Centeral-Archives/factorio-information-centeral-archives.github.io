@@ -76,14 +76,7 @@
     margin: 0 auto; 
 }
 
-.iron-plates-recepie, 
-.steel-recepie,
-.assembler-recepie,
-.copper-plates-recepie,
-.iron-gears-recepie,
-.copper-cable-recepie,
-.green-circuit-recepie,
-.stone-bricks-recepie {
+.recepie {
     display: flex;
     flex-direction: row;  
     flex-wrap: wrap;       
@@ -93,14 +86,7 @@
     width: 100%;            
 }
 
-.iron-plates-recepie > div,
-.steel-recepie > div,
-.assembler-recepie > div,
-.copper-plates-recepie  > div,
-.iron-gears-recepie > div,
-.copper-cable-recepie > div,
-.green-circuit-recepie > div,
-.stone-bricks-recepie > div {
+.recepie > div{
     display: flex;
     flex-direction: column; 
     align-items: center;    
