@@ -103,8 +103,10 @@
 }
 
 .image-for-crafting {
-    width: 75px;
-    height: 75px;
+    min-width: 75px;
+    min-height: 75px;
+    max-width: 76px;
+    max-height: 76px;
     object-fit: contain;
     image-rendering: pixelated; 
     image-rendering: crisp-edges; 
